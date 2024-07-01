@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: run
-      shell: /bin/bash
+      shell: bash
       env:
         IP_ASSIGNMENT: 192.168.196.77
         ZEROTIER_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
