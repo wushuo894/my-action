@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: run
       env:
-        IP_ASSIGNMENT: ${{ secrets.IP_ASSIGNMENT }}
+        IP_ASSIGNMENT: 192.168.196.77
         ZEROTIER_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
         ZEROTIER_TOKEN: ${{ secrets.ZEROTIER_TOKEN }}
       run: |
