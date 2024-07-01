@@ -14,6 +14,8 @@ sudo zerotier-cli join ${ZEROTIER_NETWORK_ID}
 
 sleep 10
 
+ifconfig
+
 sudo apt-get update
 apt-get install tinyproxy
 
